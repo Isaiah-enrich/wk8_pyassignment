@@ -1,0 +1,36 @@
+# 📘 CORD-19 Metadata Analysis & Streamlit App
+
+## 🔹 Overview
+This project explores the **CORD-19 research dataset** (metadata.csv) to practice basic **data analysis**, **visualization**, and building a simple **Streamlit application**.  
+
+You’ll learn how to:
+- Load and clean a real-world dataset  
+- Explore COVID-19 research trends  
+- Visualize insights with charts and word clouds  
+- Build an interactive Streamlit dashboard  
+
+---
+
+## 📊 Dataset
+We use **metadata.csv** from the [CORD-19 dataset](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge).  
+
+The metadata file contains:
+- Paper titles and abstracts  
+- Publication dates  
+- Authors and journals  
+- Source information  
+
+⚠️ The full dataset is very large — this project uses only `metadata.csv`.
+
+---
+
+## 🛠️ Tools & Requirements
+- Python **3.7+**  
+- [pandas](https://pandas.pydata.org/) → data manipulation  
+- [matplotlib](https://matplotlib.org/) & [seaborn](https://seaborn.pydata.org/) → visualization  
+- [wordcloud](https://github.com/amueller/word_cloud) → text visualization  
+- [streamlit](https://streamlit.io/) → interactive web app  
+
+### Install dependencies
+```bash
+pip install pandas matplotlib seaborn wordcloud streamlit
